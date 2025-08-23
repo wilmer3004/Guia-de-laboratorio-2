@@ -6,6 +6,11 @@ class Student:
         self.last_name = last_name
         self.email = email
         self.code_type = code_type
+        self, phone_number = phone_number
+        self.blood_type = blood_type
+        self.address = address
+        self.city = city
+        self.country = country
 
     # Getters
     def get_cod_student(self):
